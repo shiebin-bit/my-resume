@@ -1,8 +1,8 @@
 # Lau Shie Bin Portfolio Resume
 
-A polished portfolio resume website built with Angular to present my background, projects, technical skills, and professional profile in one place.
+A polished portfolio resume website built with Angular to present my background, projects, technical skills and professional profile in one place.
 
-This project started as an academic exercise and grew into something more personal: a website I can share directly when applying for internships, project opportunities, or entry-level roles.
+This project started as an academic exercise and grew into something more personal: a website I can share directly when applying for internships, project opportunities or entry-level roles.
 
 ## Why This Project
 
@@ -12,7 +12,7 @@ This website is designed to:
 
 - introduce who I am in a clean and professional way
 - showcase selected projects and technical strengths
-- present my education, work experience, and certification in one flow
+- present my education, work experience and certification in one flow
 - act as a shareable online resume for future applications
 
 ## What You'll Find
@@ -20,15 +20,15 @@ This website is designed to:
 - `Home`
   A quick professional overview with contact links and portfolio highlights.
 - `About`
-  A more complete profile section with background, strengths, and personal details.
+  A more complete profile section with background, strengths and personal details.
 - `Education`
   Academic history and relevant study progression.
 - `Work`
-  Retail experience that reflects responsibility, customer service, and operations handling.
+  Retail experience that reflects responsibility, customer service and operations handling.
 - `Skills`
-  Technical strengths grouped into web development, backend and database, mobile development, tools, and professional skills.
+  Technical strengths grouped into web development, backend and database, mobile development, tools and professional skills.
 - `Projects`
-  Selected portfolio work including `Halal`, `PawPal Final`, `DVMD`, and this `my-resume` website.
+  Selected portfolio work including `Halal`, `PawPal Final`, `DVMD` and this `my-resume` website.
 - `Certifications`
   Professional certification background, including CCNA.
 
@@ -39,11 +39,10 @@ This website is designed to:
 - `HTML`
 - `CSS`
 - `Angular Router`
-- `Vitest`
 
 ## Design Direction
 
-The visual direction is intentionally warm, bright, and readable.
+The visual direction is intentionally warm, bright and readable.
 
 Instead of building a heavy or over-animated portfolio, I focused on:
 
@@ -53,7 +52,7 @@ Instead of building a heavy or over-animated portfolio, I focused on:
 - simple navigation
 - sections that are easy to scan quickly
 
-The goal is to make the site feel professional, approachable, and practical for real-world sharing.
+The goal is to make the site feel professional, approachable and practical for real-world sharing.
 
 ## Getting Started
 
@@ -129,6 +128,6 @@ Each section is separated into its own Angular page component so the portfolio s
 
 ## Closing Note
 
-This portfolio is more than a course submission for me. It is a living project that reflects how I think, build, and present my work.
+This portfolio is more than a course submission for me. It is a living project that reflects how I think, build and present my work.
 
-I plan to keep improving it as I learn, build more projects, and grow into a stronger developer.
+I plan to keep improving it as I learn, build more projects and grow into a stronger developer.
