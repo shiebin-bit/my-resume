@@ -1,0 +1,14 @@
+.personal-grid > .card {
+  grid-column: span 6;
+}
+
+.about-card {
+  grid-column: span 12;
+}
+
+@media (max-width: 720px) {
+  .personal-grid > .card,
+  .about-card {
+    grid-column: span 1;
+  }
+}

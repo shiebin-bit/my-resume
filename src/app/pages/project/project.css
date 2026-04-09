@@ -1,0 +1,9 @@
+.project-card {
+  grid-column: span 6;
+}
+
+@media (max-width: 900px) {
+  .project-card {
+    grid-column: span 12;
+  }
+}

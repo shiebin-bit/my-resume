@@ -1,0 +1,5 @@
+.timeline-item p:first-of-type + h3 + p {
+  margin-bottom: 12px;
+  color: var(--text-primary);
+  font-weight: 600;
+}

@@ -1,0 +1,9 @@
+.skill-grid > .card {
+  grid-column: span 4;
+}
+
+@media (max-width: 900px) {
+  .skill-grid > .card {
+    grid-column: span 12;
+  }
+}
