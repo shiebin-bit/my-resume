@@ -1,59 +1,134 @@
-# MyResume
+# Lau Shie Bin Portfolio Resume
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.6.
+A polished portfolio resume website built with Angular to present my background, projects, technical skills, and professional profile in one place.
 
-## Development server
+This project started as an academic exercise and grew into something more personal: a website I can share directly when applying for internships, project opportunities, or entry-level roles.
 
-To start a local development server, run:
+## Why This Project
+
+I wanted a portfolio that feels more human than a static PDF while still keeping the clarity of a real resume.
+
+This website is designed to:
+
+- introduce who I am in a clean and professional way
+- showcase selected projects and technical strengths
+- present my education, work experience, and certification in one flow
+- act as a shareable online resume for future applications
+
+## What You'll Find
+
+- `Home`
+  A quick professional overview with contact links and portfolio highlights.
+- `About`
+  A more complete profile section with background, strengths, and personal details.
+- `Education`
+  Academic history and relevant study progression.
+- `Work`
+  Retail experience that reflects responsibility, customer service, and operations handling.
+- `Skills`
+  Technical strengths grouped into web development, backend and database, mobile development, tools, and professional skills.
+- `Projects`
+  Selected portfolio work including `Halal`, `PawPal Final`, `DVMD`, and this `my-resume` website.
+- `Certifications`
+  Professional certification background, including CCNA.
+
+## Tech Stack
+
+- `Angular`
+- `TypeScript`
+- `HTML`
+- `CSS`
+- `Angular Router`
+- `Vitest`
+
+## Design Direction
+
+The visual direction is intentionally warm, bright, and readable.
+
+Instead of building a heavy or over-animated portfolio, I focused on:
+
+- clean typography
+- soft color contrast
+- responsive layouts
+- simple navigation
+- sections that are easy to scan quickly
+
+The goal is to make the site feel professional, approachable, and practical for real-world sharing.
+
+## Getting Started
+
+Clone the repository and install dependencies:
 
 ```bash
-ng serve
+npm install
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Start the development server:
 
 ```bash
-ng generate component component-name
+npm start
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Open:
 
 ```bash
-ng generate --help
+http://localhost:4200/
 ```
 
-## Building
+## Available Scripts
 
-To build the project run:
+Run the local development server:
 
 ```bash
-ng build
+npm start
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Build the project:
 
 ```bash
-ng test
+npm run build
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+Run tests:
 
 ```bash
-ng e2e
+npm test -- --watch=false
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## Project Structure
 
-## Additional Resources
+```text
+src/
+  app/
+    pages/
+      home/
+      personal/
+      education/
+      work/
+      skill/
+      project/
+      certification/
+```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Each section is separated into its own Angular page component so the portfolio stays organized and easy to maintain.
+
+## Future Improvements
+
+- connect the site to a final GitHub Pages deployment
+- refine project descriptions with more detailed real-world context
+- add direct links to live demos or repositories
+- continue improving the portfolio as my experience grows
+
+## Author
+
+**Lau Shie Bin**
+
+- GitHub: [shiebin-bit](https://github.com/shiebin-bit)
+- LinkedIn: [linkedin.com/in/shiebin](https://linkedin.com/in/shiebin)
+- Email: [shiebin1188@gmail.com](mailto:shiebin1188@gmail.com)
+
+## Closing Note
+
+This portfolio is more than a course submission for me. It is a living project that reflects how I think, build, and present my work.
+
+I plan to keep improving it as I learn, build more projects, and grow into a stronger developer.
