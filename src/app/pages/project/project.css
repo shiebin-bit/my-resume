@@ -1,5 +1,48 @@
 .project-card {
   grid-column: span 6;
+  display: grid;
+  gap: 14px;
+}
+
+.project-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.project-head .section-tag {
+  margin-bottom: 0;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(216, 210, 200, 0.9);
+  transition:
+    transform 160ms ease,
+    background-color 160ms ease,
+    color 160ms ease,
+    border-color 160ms ease;
+}
+
+.project-link:hover {
+  color: var(--accent-strong);
+  background: rgba(15, 118, 110, 0.1);
+  border-color: rgba(15, 118, 110, 0.16);
+  transform: translateY(-1px);
+}
+
+.project-link svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
 
 @media (max-width: 900px) {
