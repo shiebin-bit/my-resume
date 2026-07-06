@@ -1,23 +1,18 @@
 <div class="app-shell">
   <header class="site-header">
-    <div class="brand-block">
-      <div class="brand-lead">
-        <p class="brand-kicker">Portfolio Resume</p>
-        <p class="brand-note">
-          Front-end focused portfolio website with resume sections, project highlights and professional links.
-        </p>
+    <div class="brand-block" aria-label="Portfolio identity">
+      <a class="brand-mark" routerLink="" aria-label="Go to home">
+        <span class="brand-initials">LSB</span>
+        <span>
+          <strong>Lau Shie Bin</strong>
+          <small>Backend & DevOps Intern</small>
+        </span>
+      </a>
 
-        <div class="brand-tags" aria-label="Header highlights">
-          <span>Johor, Malaysia</span>
-          <span>Open to Internship</span>
-          <span>Backend Developer</span>
-        </div>
-      </div>
-
-      <div class="brand-identity">
-        <p class="brand-summary">
-          Computer Science student building polished web interfaces with Angular, responsive layouts and thoughtful user experience decisions.
-        </p>
+      <div class="brand-tags" aria-label="Availability and location">
+        <span>Johor, Malaysia</span>
+        <span>Sep 2026 - Mar 2027</span>
+        <span>6-month internship</span>
       </div>
     </div>
 
@@ -25,10 +20,10 @@
       <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
       <a routerLink="personal" routerLinkActive="active">About</a>
       <a routerLink="education" routerLinkActive="active">Education</a>
-      <a routerLink="work" routerLinkActive="active">Work</a>
+      <a routerLink="experience" routerLinkActive="active">Experience</a>
       <a routerLink="skill" routerLinkActive="active">Skills</a>
       <a routerLink="project" routerLinkActive="active">Projects</a>
-      <a routerLink="certification" routerLinkActive="active">Certifications</a>
+      <a routerLink="certification" routerLinkActive="active">Awards</a>
     </nav>
   </header>
 

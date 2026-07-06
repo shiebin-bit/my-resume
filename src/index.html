@@ -2,10 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>MyResume</title>
+  <title>Lau Shie Bin | Backend & DevOps Intern</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="Backend and DevOps internship portfolio for Lau Shie Bin, Computer Science student at Universiti Utara Malaysia."
+  >
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script>
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      var redirect = params.get('redirect');
+      if (redirect && window.location.pathname.indexOf('/my-resume') === 0) {
+        window.history.replaceState(null, '', '/my-resume' + redirect);
+      }
+    })();
+  </script>
 </head>
 <body>
   <app-root></app-root>

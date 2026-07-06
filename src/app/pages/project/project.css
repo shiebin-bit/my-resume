@@ -2,6 +2,13 @@
   grid-column: span 6;
   display: grid;
   gap: 14px;
+  align-content: start;
+}
+
+.project-card.highlight {
+  grid-column: span 12;
+  background: linear-gradient(180deg, #ffffff, #f3fbf9);
+  border-color: rgba(15, 118, 110, 0.32);
 }
 
 .project-head {
@@ -19,34 +26,35 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  color: var(--text-primary);
-  background: rgba(255, 255, 255, 0.82);
-  border: 1px solid rgba(216, 210, 200, 0.9);
+  min-height: 34px;
+  padding: 0 12px;
+  border-radius: var(--radius);
+  color: var(--accent-2);
+  background: #eef5ff;
+  border: 1px solid #d7e7ff;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-decoration: none;
   transition:
-    transform 160ms ease,
-    background-color 160ms ease,
-    color 160ms ease,
-    border-color 160ms ease;
+    transform 140ms ease,
+    background-color 140ms ease,
+    border-color 140ms ease;
 }
 
 .project-link:hover {
-  color: var(--accent-strong);
-  background: rgba(15, 118, 110, 0.1);
-  border-color: rgba(15, 118, 110, 0.16);
+  background: #e0efff;
+  border-color: #b9d6ff;
   transform: translateY(-1px);
 }
 
-.project-link svg {
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
+.project-card p {
+  margin-bottom: 0;
 }
 
 @media (max-width: 900px) {
-  .project-card {
+  .project-card,
+  .project-card.highlight {
     grid-column: span 12;
   }
 }

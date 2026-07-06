@@ -1,88 +1,241 @@
 <section class="page home-page">
-  <section class="hero-card">
+  <section class="hero" aria-labelledby="home-title">
     <div class="hero-copy">
-      <p class="section-tag">Portfolio Overview</p>
-      <h2>Lau Shie Bin</h2>
-      <p class="hero-role">Computer Science Student | Back-End Developer</p>
+      <p class="eyebrow">Backend / DevOps portfolio</p>
+      <h1 id="home-title">Lau Shie Bin</h1>
+      <p class="hero-role">Backend & DevOps Intern</p>
       <p class="hero-text">
-        Computer Science student with interest in back-end development, server-side programming and
-        software quality. Building portfolio-ready web experiences with Spring Boot, Laravel and
-        structured system thinking with a focus on clear communication, maintainability and
-        practical problem solving.
+        Computer Science student at Universiti Utara Malaysia with a 3.81 CGPA, focused on
+        backend systems, microservices, CI/CD workflows and cloud deployment. Available for a
+        6-month internship from September 2026 to March 2027.
       </p>
 
-      <ul class="plain-list">
-        <li><strong>Current focus:</strong> SpringBoot, Laravel and coursework-driven project delivery.</li>
-        <li><strong>Working style:</strong> organized, collaborative and careful with structure, consistency and readability.</li>
-        <li><strong>Career direction:</strong> entry-level back-end or web development opportunities with room to grow.</li>
-      </ul>
+      <div class="cta-row" aria-label="Primary links">
+        <a class="button-link" href="resume/lau-shie-bin-backend-devops-resume.pdf" target="_blank" rel="noreferrer">
+          Download resume
+        </a>
+        <a class="button-link secondary" href="https://github.com/shiebin-bit" target="_blank" rel="noreferrer">
+          GitHub
+        </a>
+        <a class="button-link secondary" href="https://linkedin.com/in/shiebin" target="_blank" rel="noreferrer">
+          LinkedIn
+        </a>
+        <a class="button-link secondary" href="mailto:shiebin1188@gmail.com">Email</a>
+      </div>
     </div>
 
-    <aside class="hero-side">
-      <div class="avatar">
-        <img src="images/personal_photo.jpg" alt="Lau Shie Bin" class="avatar-image">
+    <aside class="hero-side" aria-label="Engineering profile">
+      <div class="photo-card">
+        <img src="images/personal_photo.jpg" alt="Portrait of Lau Shie Bin">
+        <div>
+          <span class="status-pill">online profile</span>
+          <strong>Backend + DevOps</strong>
+        </div>
       </div>
 
-      <div class="info-stack">
-        <article class="mini-card">
-          <span class="mini-label">Email</span>
-          <strong><a class="value-link" href="mailto:shiebin1188@gmail.com">shiebin1188@gmail.com</a></strong>
-        </article>
-
-        <article class="mini-card">
-          <span class="mini-label">LinkedIn</span>
-          <strong><a class="value-link" href="https://linkedin.com/in/shiebin">linkedin.com/in/shiebin/</a></strong>
-        </article>
-
-        <article class="mini-card">
-          <span class="mini-label">GitHub</span>
-          <strong><a class="value-link" href="https://github.com/shiebin-bit">github.com/shiebin-bit</a></strong>
-        </article>
-
-        <article class="mini-card">
-          <span class="mini-label">Location</span>
-          <strong>Johor, Malaysia</strong>
-        </article>
+      <div class="console-panel">
+        <div class="console-top">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <pre><code>$ profile --target backend-devops
+status: internship-ready
+availability: Sep 2026 - Mar 2027
+location: Johor, Malaysia
+focus:
+  - API development
+  - CI/CD automation
+  - cloud deployment
+  - production-oriented workflows</code></pre>
       </div>
     </aside>
   </section>
 
-  <section class="metric-grid">
+  <section class="metric-grid" aria-label="Portfolio highlights">
     <article class="metric-card">
-      <span class="metric-value">Backend</span>
-      <p class="metric-label">Focused on server-side development, API logic, structured architecture and maintainable implementation.</p>
+      <span class="metric-value">3.81</span>
+      <p class="metric-label">CGPA</p>
+      <p>Current Bachelor of Computer Science student at Universiti Utara Malaysia.</p>
     </article>
-
     <article class="metric-card">
-      <span class="metric-value">System Thinking</span>
-      <p class="metric-label">Comfortable connecting logic, data flow and practical problem solving across full project structures.</p>
+      <span class="metric-value">5</span>
+      <p class="metric-label">Selected projects</p>
+      <p>Backend, DevOps, IoT and operations-focused work with public repositories.</p>
     </article>
-
     <article class="metric-card">
-      <span class="metric-value">Online Presence</span>
-      <p class="metric-label">Professional links prepared for GitHub, LinkedIn and future portfolio sharing.</p>
+      <span class="metric-value">Gold</span>
+      <p class="metric-label">Innovate IT</p>
+      <p>HalalTrack final-year project received Gold Medal recognition.</p>
     </article>
-
     <article class="metric-card">
-      <span class="metric-value">Portfolio Ready</span>
-      <p class="metric-label">Designed to work as both an academic submission and a personal website for future applications.</p>
+      <span class="metric-value">CD</span>
+      <p class="metric-label">Cloud deployment</p>
+      <p>Handled CD and cloud deployment scope for RushB LMS DevOps Pipeline.</p>
     </article>
   </section>
 
-  <section class="info-grid">
-    <article class="info-panel">
-      <h4>Education Snapshot</h4>
-      <p>Currently pursuing Computer Science with interest in web technologies and software quality.</p>
+  <section class="section" id="projects" aria-labelledby="projects-title">
+    <div class="section-head">
+      <div>
+        <p class="section-tag">Featured work</p>
+        <h2 id="projects-title">Projects aligned with backend and DevOps roles</h2>
+      </div>
+      <p>
+        The selected work prioritizes backend implementation, service design, deployment workflow,
+        infrastructure automation and operational visibility.
+      </p>
+    </div>
+
+    <div class="featured-project-grid">
+      <article class="feature-project primary">
+        <p class="project-label">FYP / Gold Medal</p>
+        <h3>HalalTrack</h3>
+        <p>
+          Halal logistics tracking and traceability platform with Laravel backend workflows,
+          Flutter mobile access, QR verification, Docker runtime and GitHub Actions checks.
+        </p>
+        <ul class="chip-list">
+          <li>Laravel 12</li>
+          <li>Flutter</li>
+          <li>MariaDB</li>
+          <li>Docker</li>
+        </ul>
+        <a href="https://github.com/shiebin-bit/Halal-Logistics-Tracking-and-Traceability-Based-on-QR-Code" target="_blank" rel="noreferrer">
+          View repository
+        </a>
+      </article>
+
+      <article class="feature-project">
+        <p class="project-label">Microservices</p>
+        <h3>CampusTrack</h3>
+        <p>
+          Real-time campus bus platform with Spring Boot services, PostgreSQL service databases,
+          JWT/BCrypt authentication, WebSocket GPS broadcasting and cloud-ready delivery.
+        </p>
+        <ul class="chip-list">
+          <li>Spring Boot</li>
+          <li>PostgreSQL</li>
+          <li>WebSocket</li>
+          <li>Terraform</li>
+        </ul>
+        <a href="https://github.com/shiebin-bit/CampusTrack" target="_blank" rel="noreferrer">
+          View repository
+        </a>
+      </article>
+
+      <article class="feature-project">
+        <p class="project-label">CD / Cloud scope</p>
+        <h3>RushB LMS DevOps Pipeline</h3>
+        <p>
+          Group LMS DevOps project where I handled CD and cloud deployment using GitHub Actions,
+          Docker Hub images, Terraform-managed GCP Compute Engine, k3s and New Relic analysis.
+        </p>
+        <ul class="chip-list">
+          <li>GitHub Actions</li>
+          <li>Docker Hub</li>
+          <li>Terraform</li>
+          <li>New Relic</li>
+        </ul>
+        <a href="https://github.com/shiebin-bit/rushb-lms-devops-pipeline" target="_blank" rel="noreferrer">
+          View repository
+        </a>
+      </article>
+
+      <article class="feature-project">
+        <p class="project-label">IoT backend</p>
+        <h3>Smart Room Safety & Comfort</h3>
+        <p>
+          ESP32 monitoring prototype with Flask API, SQLite storage, live dashboard, device pairing
+          and Cloudflare Tunnel access for phone and remote demo workflows.
+        </p>
+        <ul class="chip-list">
+          <li>Flask</li>
+          <li>SQLite</li>
+          <li>ESP32</li>
+          <li>Cloudflare Tunnel</li>
+        </ul>
+        <a href="https://github.com/shiebin-bit/smart-room-safety-comfort" target="_blank" rel="noreferrer">
+          View repository
+        </a>
+      </article>
+
+      <article class="feature-project">
+        <p class="project-label">Operations UI</p>
+        <h3>Network Status Dashboard</h3>
+        <p>
+          Building network monitoring dashboard for device health, bandwidth usage, alerts,
+          floorplans, camera previews and troubleshooting-oriented workflows.
+        </p>
+        <ul class="chip-list">
+          <li>TypeScript</li>
+          <li>Dashboard</li>
+          <li>Alerts</li>
+          <li>Ops workflows</li>
+        </ul>
+        <a href="https://github.com/shiebin-bit/network_status_dashboard" target="_blank" rel="noreferrer">
+          View repository
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section split-section" id="skills" aria-labelledby="skills-title">
+    <div>
+      <p class="section-tag">Technical profile</p>
+      <h2 id="skills-title">Backend and deployment-ready skill set</h2>
+      <p>
+        Skills are listed where recent repositories give clear evidence through code, workflow
+        files, documentation or deployment scaffolding.
+      </p>
+    </div>
+
+    <div class="skill-matrix">
+      <article>
+        <h3>Backend</h3>
+        <p>Java, Spring Boot, Spring Security, Spring Cloud Gateway, REST APIs, Microservices, JWT/BCrypt, WebSocket, Laravel/PHP, Flask</p>
+      </article>
+      <article>
+        <h3>DevOps & Cloud</h3>
+        <p>Docker, Docker Compose, GitHub Actions, Docker Hub, Kubernetes/k3s, Terraform, Google Cloud Compute Engine, Cloudflare Tunnel, Snyk</p>
+      </article>
+      <article>
+        <h3>Database</h3>
+        <p>PostgreSQL, MySQL/MariaDB, SQLite</p>
+      </article>
+      <article>
+        <h3>Testing & Tools</h3>
+        <p>JUnit, Mockito, Cypress, Playwright, Postman, Swagger/OpenAPI, Git/GitHub</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section two-column">
+    <article class="resume-block">
+      <p class="section-tag">Education</p>
+      <h2>Bachelor of Computer Science (Honours)</h2>
+      <p>Universiti Utara Malaysia | 2023 - Present | CGPA 3.81/4.00</p>
+      <p>STPM, SMK Tinggi Batu Pahat Johor | 2021 - 2023 | CGPA 3.75/4.00</p>
     </article>
 
-    <article class="info-panel">
-      <h4>Project Snapshot</h4>
-      <p>Hands-on experience with academic and portfolio projects focused on backend systems, application logic and practical implementation.</p>
+    <article class="resume-block">
+      <p class="section-tag">Awards & certification</p>
+      <h2>Gold Medal + CCNA</h2>
+      <p>Gold Medal, Innovate IT FYP Exhibition for HalalTrack.</p>
+      <p>Cisco Certified Network Associate (CCNA), covering networking fundamentals, routing, switching and basic network security.</p>
     </article>
+  </section>
 
-    <article class="info-panel">
-      <h4>Strength Snapshot</h4>
-      <p>Strong attention to structure, presentation, communication and keeping work clear and dependable.</p>
-    </article>
+  <section class="section contact-strip" aria-label="Contact">
+    <div>
+      <p class="section-tag">Contact</p>
+      <h2>Open to Backend and DevOps internship roles</h2>
+      <p>Available for a 6-month internship from September 2026 to March 2027.</p>
+    </div>
+    <div class="cta-row">
+      <a class="button-link" href="mailto:shiebin1188@gmail.com">shiebin1188@gmail.com</a>
+      <a class="button-link light" href="https://github.com/shiebin-bit" target="_blank" rel="noreferrer">GitHub</a>
+      <a class="button-link light" href="https://linkedin.com/in/shiebin" target="_blank" rel="noreferrer">LinkedIn</a>
+    </div>
   </section>
 </section>

@@ -27,12 +27,12 @@ describe('App', () => {
 
     expect(links).toEqual([
       'Home',
-      'Personal',
+      'About',
       'Education',
-      'Work',
+      'Experience',
       'Skills',
       'Projects',
-      'Certifications',
+      'Awards',
     ]);
   });
 });

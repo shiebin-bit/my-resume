@@ -12,9 +12,10 @@ export const routes: Routes = [
   { path: '', component: Home },
   { path: 'personal', component: Personal },
   { path: 'education', component: Education },
-  { path: 'work', component: Work },
+  { path: 'experience', component: Work },
+  { path: 'work', redirectTo: 'experience' },
   { path: 'skill', component: Skill },
   { path: 'project', component: Project },
   { path: 'certification', component: Certification },
-  { path: '**', redirectTo: '' } // unknown path → Home
+  { path: '**', redirectTo: '' },
 ];
